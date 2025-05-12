@@ -1,13 +1,19 @@
-body {
-    border: 2px solid green;
-}
-
-.container {
-    border: 2px solid red;
-    width: 100vw;
-    height: 100vh;
-}
-
 p {
     text-align: center;
+    margin: 20%;
+    font-size: 5em;
+}
+
+@media (max-width: 412px) {
+    .desktop {
+        display: none;
+    }
+
+}
+
+@media (min-width: 413px) {
+    .mobile {
+        display: none;
+    }
+
 }
