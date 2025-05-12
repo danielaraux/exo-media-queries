@@ -1,0 +1,13 @@
+body {
+    border: 2px solid green;
+}
+
+.container {
+    border: 2px solid red;
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    text-align: center;
+}
